@@ -149,17 +149,20 @@ ol {
 	}
 	
 	&.sb-white {
-		background: $sub_color;
-		color: #111111;
+		background: $color;
+		color: #fff;
 		-webkit-box-shadow: inset 0 0 0 1px #fff;
 		box-shadow: inset 0 0 0 1px $color(209, 21, 21);
+		transition: 0.5s all;
 	}
 		&:hover {
 			color: #fff;
 			box-shadow: 3px 3px 20px rgb(196, 65, 25) ;
+			transition: 0.5s all;
 		}
+
 	&.sb-line {
-		background: #fff;
+		background: $sub_color;
 		color: #fff;
 		-webkit-box-shadow: inset 0 0 0 1px #fff;
 		box-shadow: inset 0 0 0 1px #fff;
@@ -503,7 +506,7 @@ ol {
 	margin-left: 25px;
 }
 .container__wrapper {
-	background: rgba(0, 0, 0, 0.199);
+	background: rgba(0, 0, 0, 0.6);
 	z-index: 2;
 	height: 1000px;
 	width: 530px;
@@ -553,7 +556,7 @@ ol {
 			position: relative;
 			top: 50px;
 			opacity: 0;
-			color: #282828;
+			color: #ffffff;
 			
 		}
 		.sb-line {
@@ -570,7 +573,7 @@ ol {
 			width: 162px;
 			height: 162px;
 			border-radius: 50%;
-			background: $sub-color;
+			background: $color;
 			text-align: center;
 			padding-top: 20px;
 			-webkit-transform: rotate(45deg);
@@ -582,7 +585,7 @@ ol {
 				content: "";
 				width: calc(100% - 10px);
 				height: calc(100% - 10px);
-				border: 1px solid #3daf3d;
+				border: 1px solid $sub_color;
 				left: 5px;
 				top: 5px;
 				border-radius: 50%;
@@ -603,7 +606,7 @@ ol {
 				text-transform: uppercase;
 				line-height: 1;
 				font-size: 10px;
-				color: black;
+				color: #fff;
 			}
 		}
 	}
@@ -2362,5 +2365,3 @@ ol {
 	background-color: rgba(0, 0, 0, 0.56);
 	top: 0;
   }
-  
-  

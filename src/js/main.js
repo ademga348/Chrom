@@ -75,9 +75,10 @@ $(window).on('load', function() {
         animateOut: 'fadeOut',
     	animateIn: 'fadeIn',
         navText: ['<i class="flaticon-left-arrow-1"></i>', '<i class="flaticon-right-arrow-1"></i>'],
-        smartSpeed: 1200,
+		smartSpeed: 1200,
         autoHeight: false,
-        autoplay: true,
+		autoplay: true,
+		autoplayHoverPause: true,
         onInitialized: function() {
         	var a = this.items().length;
             $("#snh-1").html("<span>1</span><span>" + a + "</span>");
@@ -278,5 +279,12 @@ $(window).on('load', function() {
 		valideForm('#consultation form');
 		valideForm('#order form');
 	
-		$("input[name=phone").mask('+7 (999) 999-99-99');
+		$(document).ready(function(){
+			//при нажатию на любую кнопку, имеющую класс .btn
+			$(".btn").click(function() {
+			  //открыть модальное окно с id="myModal"
+			  $("#myModal").modal('show');
+			});
+		  });
+
 })(jQuery);
