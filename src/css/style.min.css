@@ -116,7 +116,7 @@ ul, ol { padding: 0; margin: 0; }
 
 .accordion-area .panel-link, .accordion-area .panel-link.active.collapsed { text-align: left; position: relative; width: 100%; font-size: 14px; font-weight: 700; color: #414141; padding: 0; text-transform: uppercase; line-height: 1; cursor: pointer; border: none; min-height: 69px; background-color: transparent; border-radius: 0; }
 
-.accordion-area .panel-body { padding-top: 10px; }
+.accordion-area .panel-body { padding-bottom: 20px; }
 
 .accordion-area .panel-body p { color: #8f8f8f; margin-bottom: 25px; line-height: 1.8; }
 
@@ -180,9 +180,9 @@ ul, ol { padding: 0; margin: 0; }
 /* ----------------
   Features
 ---------------------*/
-.hero_col { margin-top: 170px; }
+.hero_col { margin-top: 170px; min-width: 550px; margin-left: 25px; }
 
-.container__wrapper { background: rgba(0, 0, 0, 0.199); z-index: 2; height: 1000px; width: 550px; margin-left: 350px; }
+.container__wrapper { background: rgba(0, 0, 0, 0.199); z-index: 2; height: 1000px; width: 530px; margin-left: 350px; }
 
 .hero-section { padding-bottom: 54px; }
 
@@ -200,7 +200,7 @@ ul, ol { padding: 0; margin: 0; }
 
 .hero-slider .hs-item .container { position: relative; padding-top: 170px; }
 
-.hero-slider .hs-item .offer-card { position: absolute; right: 0; top: 226px; width: 162px; height: 162px; border-radius: 50%; background: #57d1cb; text-align: center; padding-top: 20px; -webkit-transform: rotate(45deg); transform: rotate(45deg); opacity: 0; }
+.hero-slider .hs-item .offer-card { position: absolute; top: 226px; width: 162px; height: 162px; border-radius: 50%; background: #57d1cb; text-align: center; padding-top: 20px; -webkit-transform: rotate(45deg); transform: rotate(45deg); opacity: 0; }
 
 .hero-slider .hs-item .offer-card:after { position: absolute; content: ""; width: calc(100% - 10px); height: calc(100% - 10px); border: 1px solid #3daf3d; left: 5px; top: 5px; border-radius: 50%; }
 

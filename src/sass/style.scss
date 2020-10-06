@@ -315,7 +315,7 @@ ol {
 }
 
 .accordion-area .panel-body {
-	padding-top: 10px;
+	padding-bottom: 20px;
 	p {
 		color: #8f8f8f;
 		margin-bottom: 25px;
@@ -499,12 +499,14 @@ ol {
 ---------------------*/
 .hero_col	{
 	margin-top: 170px;
+	min-width: 550px;
+	margin-left: 25px;
 }
 .container__wrapper {
 	background: rgba(0, 0, 0, 0.199);
 	z-index: 2;
 	height: 1000px;
-	width: 550px;
+	width: 530px;
 	margin-left: 350px;
 }
 .hero-section {
@@ -564,7 +566,6 @@ ol {
 		
 		.offer-card {
 			position: absolute;
-			right: 0;
 			top: 226px;
 			width: 162px;
 			height: 162px;
